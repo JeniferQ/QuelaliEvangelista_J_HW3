@@ -1,0 +1,28 @@
+* {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(131, 187, 252);
+    font-size: 20px;
+    font-family: 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header h1 {
+    text-align: center;
+    margin: 40px auto 60px auto;
+    font-size: 40px;
+    color: black;
+    padding-top: 25px;
+}
+
+#header-box {
+    background-color: rgb(205, 208, 255);
+    border-radius: 5px;
+    width: 400px;
+    height: 100px;
+    margin: auto;
+    margin-bottom: 50px;
+}
