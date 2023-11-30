@@ -105,3 +105,40 @@ article h2 {
     margin-top: 80px;
     box-shadow: -10px 10px;
 }
+
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    padding: 6px 8px;
+    border-radius: 10px;
+}
+
+.to-do li:nth-child(odd){
+    background-color: rgba(255, 187, 16, 0.5);
+}
+
+.in-progress li:nth-child(odd) {
+    background-color: rgba(255, 0, 68, 0.5);
+}
+
+.completed li:nth-child(odd) {
+    background-color: rgba(133, 85, 255, 0.5);
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+input[type="checkbox"]:checked + span::after {
+    content: "\263A";
+    font-size: 20px;
+    padding-left: 5px;
+    color: white;
+}
+
+input[type="checkbox"]:checked + span {
+    color: white;
+}
